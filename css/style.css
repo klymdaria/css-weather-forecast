@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    transition: all .1s ease-in;
+}
+
+@font-face {
+    font-family: Lucida Grande;
+    src: url(../lucida.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background-color: #3399cc;
+    font-family: Lucida Grande;
+    color: #fff;
+    margin: 0;
+    border: 16px solid #2b81ac;
+}
+
+.ba-container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+
+.ba-list-city {
+    padding-left: 0;
+    list-style-type: none;
+    border: 3px solid #fff;
+}
+
+.ba-list-city {
+    font-size: 0;
+}
+
+li {
+    display: inline-block;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+.wi {
+    font-family: weathericons;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+    font-size: 25px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wi-sunrise::before {
+    content: "\f051";
+}
+
+.wi-day-sunny::before {
+    content: "\f00d";
+}
+
+.wi-night-showers::before {
+    content: "\f037";
+}
+
+.wi-day-cloudy::before {
+    content: "\f002";
+}
+
+.wi-day-cloudy-high::before {
+    content: "\f07d";
+}
+
+.wi-hot::before {
+    content: "\f072";
+}
+
+.wi-day-sleet-storm::before {
+    content: "\f068";
+}
+
+.wi-rain-wind::before {
+    content: "\f018";
+}
+
+.wi-night-clear::before {
+    content: "\f02e";
+}
+
+.wi-night-partly-cloudy::before {
+    content: "\f083";
+}
+
+.ba-city-lisbon {
+    width: 50%;
+    background-color: #3399cc;
+    font-size: 18px;
+}
+
+.ba-city-paris {
+    width: 25%;
+    background-color: #33cccc;
+    font-size: 18px;
+}
+
+.ba-city-belgrade {
+    width: 25%;
+    background-color: #996699;
+    font-size: 18px;
+}
+
+.ba-city-moscow {
+    width: 25%;
+    background-color: #c24747;
+    font-size: 18px;
+}
+
+.ba-city-tel-aviv {
+    width: 25%;
+    background-color: #e2674a;
+    font-size: 18px;
+}
+
+.ba-city-cair {
+    width: 25%;
+    background-color: #ffcc66;
+    font-size: 18px;
+}
+
+.ba-city-new-york {
+    width: 25%;
+    background-color: #99cc99;
+    font-size: 18px;
+}
+
+.ba-city-new-delhi {
+    width: 25%;
+    background-color: #669999;
+    font-size: 18px;
+}
+
+.ba-city-san-francisco {
+    width: 50%;
+    background-color: #cc6699;
+    font-size: 18px;
+}
+
+.ba-city-tokyo {
+    width: 25%;
+    background-color: #339966;
+    font-size: 18px;
+}
+
+.ba-city-sydney {
+    width: 100%;
+    background-color: #666699;
+    font-size: 18px;
+}
+
+.ba-end {
+    padding-bottom: 40px;
+}
+
+.ba-list-city:hover .ba-city {
+    opacity: 0.6;
+}
+
+.ba-list-city .ba-city:hover {
+    opacity: 1;
+}
